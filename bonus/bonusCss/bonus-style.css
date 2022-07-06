@@ -1,0 +1,54 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg_color: #083B4C;
+    --numberColor: #1389B2;
+    --fizzColor: #0BD6A1;
+    --buzzColor: #FFD166;
+    --fizzBuzzColor: #F0466F;
+}
+
+body{
+    background-color: var(--bg_color);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    margin: 1.5rem 0;
+}
+
+#wrapper{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: var(--numberColor);
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizz{
+    background-color: var(--fizzColor);
+}
+
+.buzz{
+    background-color: var(--buzzColor);
+}
+.fizzBuzz{
+    background-color: var(--fizzBuzzColor);
+}
