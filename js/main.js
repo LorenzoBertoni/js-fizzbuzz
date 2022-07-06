@@ -1,6 +1,7 @@
+let userPrompt = parseInt(prompt('Inserisci un numero intero :)'));
 const wrapper = document.getElementById('wrapper');
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= userPrompt; i++) {
     let square = `<div class="square"> ${i} </div> `;
     let fizz = '<div class="square fizz"> Fizz </div>'
     let buzz = '<div class="square buzz"> Buzz </div>'
